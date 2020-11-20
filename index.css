@@ -1,0 +1,15 @@
+.home-main-section {
+	display: flex;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+	text-align: center;
+	padding: 100px;
+	line-height: 20px;
+}
+
+.bigger-title {
+	line-height: 70px;
+	padding: 0;
+	margin: 15px;
+}
