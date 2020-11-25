@@ -8,6 +8,7 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 nav{
@@ -22,6 +23,7 @@ body{
 	background-image: url("pexels-min-an-749080.png");
 	background-repeat: no-repeat;
 	background-size: auto;
+	overflow: hidden;
 }
 
 .logo{
