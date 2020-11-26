@@ -22,7 +22,7 @@ nav{
 body{
 	background-image: url("pexels-min-an-749080.png");
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: cover;
 }
 
 .logo{
