@@ -11,19 +11,50 @@
 	font-weight: 800;
 	color: orange;
 	position: absolute;
-	text-align: right;
 	width: 25%;
-	right: 53%;
-	top: 45%;
-	transform: scale(1.3,1.3);
+	right: 56%;
+	top: 280px;
+	transform: scale(1.5,1.5);
 }
 .noidung1{
 	font-family: 'Roboto', Sans-serrif;
 	font-weight: 400;
 	color: white;
 	width: 30%;
-	left: 53%;
+	left: 52%;
 	position: absolute;
 	text-align: left;
-	top: 43%;
+	top: 270px;
+}
+@media screen and (max-width: 2048px){
+	.tieude1{
+		text-align: right;
+		width: 25%;
+		right: 56%;
+		top: 280px;
+		transform: scale(1.5,1.5);
+	}
+	.noidung1{
+		width: 30%;
+		left: 52%;
+		position: absolute;
+		text-align: left;
+		top: 270px;
+	}
+}
+@media screen and (max-width: 768px){	
+	.tieude1{
+		text-align: left;
+		width: 50%;
+		left: 28%;
+		top: 25%;
+
+	}
+	.noidung1{
+		width: 70%;
+		left: 17%;
+		position: absolute;
+		text-align: left;
+		top: 58%;
+	}
 }
